@@ -3,17 +3,17 @@ document.addEventListener('DOMContentLoaded', () => {
         // Semestre 1
         { id: 'DQUI1045', name: 'Química General I', semester: 1, prerequisites: [], status: 'disponible', type: 'disciplinar' },
         { id: 'DBIO1091', name: 'Biología Celular', semester: 1, prerequisites: [], status: 'disponible', type: 'disciplinar' },
-        { id: 'DCEN1032', name: 'Matemática', semester: 1, prerequisites: [], status: 'disponible', type: 'disciplinar' },
-        { id: 'QFAR0003', name: 'Intro. a las Cs. Farmacéuticas', semester: 1, prerequisites: [], status: 'disponible', type: 'profesional' },
-        { id: 'QFAR0001', name: 'Integrado de Habilidades del QF', semester: 1, prerequisites: [], status: 'disponible', type: 'profesional' },
-        { id: 'FORI1004', name: 'Antropología', semester: 1, prerequisites: [], status: 'disponible', type: 'identidad' },
+        { id: 'DCEX0002', name: 'Matemática', semester: 1, prerequisites: [], status: 'disponible', type: 'disciplinar' },
+        { id: 'QYFAA001', name: 'Intro. a las Cs. Farmacéuticas', semester: 1, prerequisites: [], status: 'disponible', type: 'profesional' },
+        { id: 'QYFAA002', name: 'Integrado de Habilidades del QF', semester: 1, prerequisites: [], status: 'disponible', type: 'profesional' },
+        { id: 'FORI1001', name: 'Antropología', semester: 1, prerequisites: [], status: 'disponible', type: 'identidad' },
         // Semestre 2
         { id: 'DQUI1046', name: 'Química General II', semester: 2, prerequisites: ['DQUI1045'], status: 'bloqueado', type: 'disciplinar' },
-        { id: 'DCEN1033', name: 'Cálculo Diferencial', semester: 2, prerequisites: ['DCEN1032'], status: 'bloqueado', type: 'disciplinar' },
-        { id: 'DCEN1034', name: 'Física', semester: 2, prerequisites: ['DCEN1032'], status: 'bloqueado', type: 'disciplinar' },
-        { id: 'DCEN1035', name: 'Bioestadística', semester: 2, prerequisites: ['DCEN1032'], status: 'bloqueado', type: 'disciplinar' }, // CORREGIDO
-        { id: 'QFAR0002', name: 'Fundamentos del Quehacer Farmacéutico', semester: 2, prerequisites: ['QFAR0001'], status: 'bloqueado', type: 'profesional' },
-        { id: 'FORI1010', name: 'Ética', semester: 2, prerequisites: ['FORI1004'], status: 'bloqueado', type: 'identidad' },
+        { id: 'DCEX0003', name: 'Cálculo Diferencial', semester: 2, prerequisites: ['DCEX0002'], status: 'bloqueado', type: 'disciplinar' },
+        { id: 'DCEX0019', name: 'Física', semester: 2, prerequisites: ['DCEX0002'], status: 'bloqueado', type: 'disciplinar' },
+        { id: 'DCEX0005', name: 'Bioestadística', semester: 2, prerequisites: ['DCEX0002'], status: 'bloqueado', type: 'disciplinar' }, // CORREGIDO
+        { id: 'QYFAB001', name: 'Fundamentos del Quehacer Farmacéutico', semester: 2, prerequisites: ['QYFAA001'], status: 'bloqueado', type: 'profesional' },
+        { id: 'FORI002', name: 'Ética', semester: 2, prerequisites: ['FORI1001'], status: 'bloqueado', type: 'identidad' },
         // Semestre 3
         { id: 'DQUI1047', name: 'Química Analítica', semester: 3, prerequisites: ['DQUI1046'], status: 'bloqueado', type: 'disciplinar' },
         { id: 'DQUI1052', name: 'Química Orgánica', semester: 3, prerequisites: ['DQUI1045'], status: 'bloqueado', type: 'disciplinar' },
