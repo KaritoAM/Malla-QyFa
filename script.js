@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => { 
     const mallaData = [
         // Semestre 1
         { id: 'DQUI1045', name: 'Química General I', semester: 1, prerequisites: [], status: 'disponible', type: 'disciplinar' },
